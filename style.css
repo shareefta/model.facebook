@@ -1,0 +1,162 @@
+ul
+{
+    list-style-type: none;
+}
+body
+{
+    margin: 0;
+    background-color: rgb(244, 242, 242);
+}
+.searchbox
+{
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    
+}
+.container1
+{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+li
+{
+    float: left;
+}
+.list2
+{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.section1
+{
+    align-items: start;
+}
+.section2
+{
+    align-items: center;
+}
+.section3
+{
+    align-items:end;
+}
+.list1
+{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.list3
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.image
+{
+    margin-bottom: 5px;
+}
+form 
+{
+    color: #555;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 15px;
+}
+input[type="search"] 
+{
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+  
+input[type="search"]::placeholder
+{
+    color: #bbb;
+}
+button
+{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+  
+button:hover
+{
+    opacity: 1;
+}
+button:focus,input[type="search"]:focus
+{
+  box-shadow: 5px; #1183d6;
+  border-color: #1183d6;
+  outline: none;
+}
+form.nosubmit
+{
+    border: none;
+    padding: 0;
+}
+input.nosubmit
+{
+    width: 260px;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+.container2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section4
+{
+    width: 20%;
+    justify-content: start;
+}
+.section5
+{
+    width: 20%;
+    justify-content: end;
+}
+label
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.form
+{
+    border: none;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+select
+{
+    border: 1px solid dark transparent;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    background: dark transparent;
+}
+form:hover
+{
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 20px;
+    background-color: rgb(228, 222, 222);
+    width:250px;
+    height: 40px;
+}
